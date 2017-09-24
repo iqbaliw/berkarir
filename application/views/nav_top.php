@@ -26,7 +26,13 @@
                 <li><a href="<?php echo base_url('profiling/konsultasi');?>">Konsultasi</a></li>
               </ul>
             </li>
-            <li><a href="<?php echo base_url('development/index');?>">Development</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="<?php echo base_url('development/modul');?>">Modul</a></li>
+                <li><a href="<?php echo base_url('development/tes');?>">Ikuti Tes</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profil <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
