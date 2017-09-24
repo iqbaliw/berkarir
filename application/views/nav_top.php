@@ -12,9 +12,21 @@
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav"> 
             <li class="active"><a href="<?php echo base_url('assessment/index');?>">Beranda <span class="sr-only">(current)</span></a></li>
-            <li><a href="<?php echo base_url('assessment/lengkapi');?>">Lengkapi Profil</a></li>
-            <li><a href="<?php echo base_url('assessment/psikotest');?>">Ikuti Psikotest</a></li>
-             <li><a href="<?php echo base_url('assessment/hasil');?>">Lihat Hasil</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Assessment <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="<?php echo base_url('assessment/lengkapi');?>">Lengkapi Profil</a></li>
+                <li><a href="<?php echo base_url('assessment/psikotest');?>">Ikuti Psikotest</a></li>
+                <li><a href="<?php echo base_url('assessment/hasil');?>">Lihat Hasil</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profiling <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="<?php echo base_url('profiling/konsultasi');?>">Konsultasi</a></li>
+              </ul>
+            </li>
+            <li><a href="<?php echo base_url('development/index');?>">Development</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profil <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
