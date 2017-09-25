@@ -23,7 +23,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profiling <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="<?php echo base_url('profiling/konsultasi');?>">Konsultasi</a></li>
+                <li><a href="<?php echo base_url('profiling');?>">Konsultasi</a></li>
               </ul>
             </li>
             <li class="dropdown">

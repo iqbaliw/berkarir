@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="<?php echo base_url();?>adminlte/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Date Picker -->
   <link rel="stylesheet" href="<?php echo base_url();?>adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="<?php echo base_url();?>adminlte/plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="<?php echo base_url();?>adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css">
   <!-- jquery selec2 -->

@@ -28,7 +28,16 @@ if($page == 'assess_index'){
   $this->load->view('assessment/psikotest');
 }elseif($page == 'assess_hasil'){
   $this->load->view('assessment/hasil');
+}elseif($page == 'profiling_confirm'){
+  $this->load->view('profiling/confirm');
+}elseif($page == 'profiling_index'){
+  $this->load->view('profiling/index');
+}elseif($page == 'profiling_lists'){
+  $this->load->view('profiling/lists');
+}elseif($page == 'profiling_session_lists'){
+  $this->load->view('profiling/session_lists');
 }
+
 ?>
 		</section>
     	<!-- /.content -->
