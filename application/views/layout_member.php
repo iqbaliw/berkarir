@@ -4,7 +4,12 @@
   <div class="wrapper">
 
 <?php 
-$this->load->view('nav_top');
+if ($page == 'cmp_dashboard_index' || $page == 'cmp_kandidat_index') {
+  $this->load->view('nav_top_cmp');
+}
+else{
+  $this->load->view('nav_top');
+}
 ?>
 
       <!-- Content Wrapper. Contains page content -->
@@ -36,6 +41,10 @@ if($page == 'assess_index'){
   $this->load->view('profiling/lists');
 }elseif($page == 'profiling_session_lists'){
   $this->load->view('profiling/session_lists');
+}elseif($page == 'cmp_dashboard_index'){
+  $this->load->view('company/dashboard/index');
+}elseif($page == 'cmp_kandidat_index'){
+  $this->load->view('company/kandidat/lists');
 }
 
 ?>
