@@ -28,7 +28,12 @@ if($page == 'assess_index'){
   $this->load->view('assessment/psikotest');
 }elseif($page == 'assess_hasil'){
   $this->load->view('assessment/hasil');
+}elseif($page == 'assess_test_petunjuk') {
+  $this->load->view('assessment/petunjuk');
+}elseif($page == 'assess_mulai_test') {
+  $this->load->view('assessment/test');
 }
+
 ?>
 		</section>
     	<!-- /.content -->
